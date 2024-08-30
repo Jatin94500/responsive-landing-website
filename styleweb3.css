@@ -1,0 +1,215 @@
+/* Uncomment and correct the Google Fonts import if needed */
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(35, 35, 85);
+}
+
+span {
+    font-size: 2.5rem;
+    color: #757373;
+}
+
+h6 {
+    font-size: 1.1rem;
+    color: rgb(24, 24, 49);
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 8vw;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+nav img {
+    width: 100px;
+    cursor: pointer;
+}
+
+nav .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .navigation ul li {
+    list-style-type: none;
+    margin-left: 30px;
+    align-items: center;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav .navigation ul li a:hover {
+    color: #fdc938;
+}
+
+/* Home */
+#home {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("./IMG-20240714-WA0021.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:40px ;
+}
+#home h2{
+    color:#fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+#home p {
+    width: 50%;
+    color:#fff;
+    font-size: .9rem;
+    line-height: 25px;
+}
+#home .btn{
+    margin-top: 30px;
+}
+#home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 14px;
+    
+}
+#home a.blue{
+    color: #fff;
+    background:rgb(21, 21, 100);
+    transition: 0.3 ease
+}
+
+#home a.blue:hover {
+    color:rgb(21, 21, 100);
+    background:#fff;
+}
+
+#home a.yellow{
+    color: #fff;
+    background:#fdc938;
+    transition: 0.3 ease;
+}
+#map{
+    width: auto;
+    height: 50px;
+}
+#home a.yellow:hover {
+    color:#fdc938;
+    background:#fff;
+}
+#features{
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+#features .fea-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap: 1remss;
+    margin-top: 50px;
+}
+#features .fea-box{
+    background: #f9f9ff;
+    text-align: start;
+}
+#features .fea-box i{
+    font-size: 2.3rem;
+    color:rgb(44,44,89);
+}
+#features .fea-box h3{
+    font: size 1.2em;
+    font-weight: 60;
+    color: rgb(44,44,89);
+    padding: 13px 0 7px 0; 
+}
+#features .fea-box p{
+    font: size 1.2em;
+    font-weight: 400;
+    color: rgb(44,44,89);
+    
+}
+#Registration {
+    padding: 6vw 8vw 6vw 8vw;
+    background-image: linear-gradient(rgba(99,112,168,0.5),rgb(81,91,233,0.5)),url("./IMG_20240712_00153458.jpg");
+    padding-top: 14px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Registration .reminder {
+    color: #fff;
+}
+#Registration .reminder h1{
+    color: #fff;
+}
+
+#Registration .reminder .time{
+    display: flex;
+    margin-top: 40px;
+
+}
+#Registration .reminder .time .date{
+    text-align: center;
+    padding: 13px,33px;
+    background-color: rgba(255,255,255,0.25);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    border: 1px solid rgba(255,255,255,0.18);
+}
+#Registration-forms {
+    background: #fff;
+    border-radius: none;
+    display: flex;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    border-radius: 17px;
+}
+.Registration-forms input {
+    margin: 15px 0;
+    padding: "15px 10px";
+    border: 1px solid rgb(84,40,241);
+    outline: none;
+    border-radius: 500px;
+
+}
+.h3{
+    text
+}
